@@ -730,12 +730,12 @@ footer .copyright{
 }
 /* Contact Section */
 #contact {
-    padding: var(--sectionPadding);
+    padding: 40px 80px;
   }
   
   .contact {
     display: grid;
-    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: 1fr 1fr; 
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 3rem;
   }
@@ -757,7 +757,10 @@ footer .copyright{
   
   .contact-form input::placeholder,
   .contact-form textarea::placeholder {
-    color: #9d9fa1;
+    color: #ffffff;
+  }
+  .contact-form input{
+    color: #fff;
   }
   
   .contact-form input:focus,
@@ -769,7 +772,7 @@ footer .copyright{
   .btn-submit {
     width: 100%;
     padding: 0.75rem 1.3rem;
-    background-color: var(--primaryIconColor);
+    background-color: black;
     color: #fff;
     border: none;
     border-radius: 3px;
